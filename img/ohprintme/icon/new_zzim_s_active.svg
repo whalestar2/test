@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/zzim_S / Active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/zzim_S-/-Active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="icon/zzim" transform="translate(3.352016, 3.500000)" stroke="#FE2F48">
+            <path d="M3.90886269,11.8763275 C3.30464403,11.2721088 2.39831603,10.3657809 1.1898787,9.15734352 C-0.396626234,7.57083859 -0.396626234,4.99860586 1.1898787,3.41210092 C2.77638364,1.82559599 5.34861636,1.82559599 6.9351213,3.41210092 C7.53175709,4.00873672 8.0249675,4.50194713 8.41475254,4.89173216" id="Path"></path>
+            <path d="M17.4506773,11.185303 L11.1312329,11.185303 C8.8875761,11.185303 7.0687329,9.36645983 7.0687329,7.12280303 C7.0687329,4.87914623 8.8875761,3.06030303 11.1312329,3.06030303 L13.4977753,2.7862752" id="Path" transform="translate(12.259705, 6.985789) scale(-1, 1) rotate(45.000000) translate(-12.259705, -6.985789) "></path>
+            <path d="M5.47411918,9.69480676 L10.5080282,9.72871574 C11.88874,9.72871574 13.0080282,10.8480039 13.0080282,12.2287157 C13.0080282,13.6094276 11.9132765,14.8334332 10.5325647,14.8334332 L5.97553681,14.8817058" id="Path" transform="translate(9.241074, 12.288256) scale(-1, 1) rotate(45.000000) translate(-9.241074, -12.288256) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="58px" viewBox="0 0 42 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Flag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_home_디지털인쇄_Active" transform="translate(-210.000000, -1516.000000)" fill="#2d82e8">
+            <g id="오늘의추천" transform="translate(194.000000, 1456.000000)">
+                <g id="rank" transform="translate(16.000000, 60.000000)">
+                    <path d="M0,5.54850283e-14 L42,5.54850283e-14 L42,55.7833799 C42,56.8879494 41.1045695,57.7833799 40,57.7833799 C39.7296286,57.7833799 39.4620643,57.7285601 39.2134776,57.6222335 L21.7865224,50.1683014 C21.2841851,49.9534395 20.7158149,49.9534395 20.2134776,50.1683014 L2.78652236,57.6222335 C1.77095155,58.0566178 0.595530697,57.585473 0.161146394,56.5699022 C0.0548198314,56.3213156 -4.10978267e-16,56.0537513 0,55.7833799 L0,5.54850283e-14 L0,5.54850283e-14 Z" id="Flag"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script defer src="./js/ohprintme/item_list.js"></script>
+    <script defer src="./js/ohprintme/h_f.js"></script>
+    <script defer src="./js/ohprintme/00.ohprintme(index).js"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/ohprintme/h_f.css">
+    <link rel="stylesheet" href="./css/ohprintme/00.ohprintme(index).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="./css/ohprintme/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./css/ohprintme/magic.css">
+
+</head>
+
+<body>
+    <!-- 퀵버튼 -->
+    <div id="quick">
+
+        <div class="quick_list">
+            <div>
+                <div class="q_li q_01"></div>
+                <div class="q_li q_02"></div>
+                <div class="q_li q_03"></div>
+                <div class="q_li q_04"></div>
+                <div class="q_li q_05"></div>
+                <!-- <li class="q_06"></li> -->
+            </div>
+        </div>
+        <div class="top_btn">
+            <div class="top_btn_icon"></div>
+        </div>
+        <div class="quick_btn">
+            <div class="quick_btn_txt">Quick</div>
+        </div>
+    </div>
+
+    <div id="wrap">
+        <div class="header">
+            <div class="contents_area1">
+                <div class="h_top">
+                    <!-- 햄버거버튼 -->
+                    <div class="btn_ham">
+                        <div class="line line_top"></div>
+                        <div class="line line_mid"></div>
+                        <div class="line line_bot"></div>
+                    </div>
+
+                    <div class="logo">
+                        <a href="./00.ohprintme(index).html" class="logo_img">logo</a>
+                        <!-- <a href="./00.ohprintme(index).html" class="logo_img2">logo</a> -->
+                    </div>
+
+                    <div class="nav">
+                        <div class="nav_top">
+                            <div class="wrapper1">
+                                <div class="focus">
+                                    search
+                                </div>
+                                <div class="mask">
+                                    <div class="text">search</div>
+                                </div>
+                            </div>
+                            <div class="icon icon1"></div>
+                            <div class="icon icon2"></div>
+                            <div class="icon icon3"></div>
+                        </div>
+                        <div class="nav_bot">
+                            <div class="nav_item_box">
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=0"
+                                        class="hvr-underline-from-center">굿즈</a>
+                                </div>
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=1"
+                                        class="hvr-underline-from-center">스티커/포장</a>
+                                </div>
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=2"
+                                        class="hvr-underline-from-center">포토북</a>
+                                </div>
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=3"
+                                        class="hvr-underline-from-center">홍보물</a>
+                                </div>
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=4"
+                                        class="hvr-underline-from-center">패브릭/잡화 </a>
+                                </div>
+                                <div class="nav_item">
+                                    <a href="00.ohprintme(product).html?cateNo=5"
+                                        class="hvr-underline-from-center">라이프</a>
+                                </div>
+                                <div class="nav_item nav_event">
+                                    <a href="00.ohprintme(product).html?cateNo=6"
+                                        class="hvr-underline-from-center">이벤트</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="pan">
+                <div class="contents_area1">
+                    <!-- <div class="pan_item pan_item1">
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0"><div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img0"></div>
+                                <div class="menu_icon best_icon"></div>
+                            </div><div class="c_pan_desc">웰컴키트</div>
+                        </a>
+                            
+                            
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                            <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img1"></div>
+                                <div class="menu_icon new_icon"></div>
+                            </div>
+                            <div class="c_pan_desc">포스터</div></a>
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                                <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img2"></div>
+                                <div class="menu_icon hot_icon"></div>
+                            </div>
+                            <div class="c_pan_desc">일러스트굿즈</div>
+                            </a>
+                            
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                                <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img3"></div>
+                            </div>
+                            <div class="c_pan_desc">메모지</div>
+                            </a>
+                            
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                                <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img4"></div>
+                            </div>
+                            <div class="c_pan_desc">스티커</div>
+                            </a>
+                            
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                                <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img5"></div>
+                            </div>
+                            <div class="c_pan_desc">명함</div>
+                            </a>
+                            
+                        </div>
+                        <div class="c_pan">
+                            <a href="00.ohprintme(product).html?cateNo=0">
+                                <div class="c_pan_img_box">
+                                <div class="c_pan_img c_pan_img6"></div>
+                            </div>
+                            <div class="c_pan_desc">전체보기</div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="pan_item pan_item2">
+                        <div class="c_pan">1</div>
+                    </div>
+                    <div class="pan_item pan_item3">
+                        <div class="c_pan">2</div>
+                    </div>
+                    <div class="pan_item pan_item4">
+                        <div class="c_pan">3</div>
+                        <div class="c_pan">3</div>
+                    </div>
+                    <div class="pan_item pan_item5">
+                        <div class="c_pan">4</div>
+                    </div>
+                    <div class="pan_item pan_item6">
+                        <div class="c_pan">5</div>
+                    </div>
+                    <div class="pan_item pan_item7">
+                        <div class="c_pan">6</div>
+                    </div> -->
+
+                </div>
+            </div>
+
+        </div>
+        <div class="blackpan_overlay"></div>
+        <div class="ham_pan">
+            <div class="ham_pan_header">
+                <div class="ham_logo"></div>
+            </div>
+            <div class="ham_pan_body">
+                <div class="menu_tab"><span class="menu_tab_txt">브랜드굿즈</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+                <div class="menu_tab"><span class="menu_tab_txt">스티커/포장</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+                <div class="menu_tab"><span class="menu_tab_txt">포토북</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+                <div class="menu_tab"><span class="menu_tab_txt">홍보용</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+                <div class="menu_tab"><span class="menu_tab_txt">패브릭/잡화</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+                <div class="menu_tab"><span class="menu_tab_txt">라이프</span>
+                    <div class="ham_pan_tape"></div>
+                </div>
+                <div class="menu_tab_pan">
+
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img0"></div>
+                        <div class="menu_sub_tab_txt">웰컴키트</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img1"></div>
+                        <div class="menu_sub_tab_txt">포스터</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img2"></div>
+                        <div class="menu_sub_tab_txt">일러스트굿즈</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img3"></div>
+                        <div class="menu_sub_tab_txt">메모지</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img4"></div>
+                        <div class="menu_sub_tab_txt">스티커</div>
+                    </div>
+                    <div class="menu_sub_tab">
+                        <div class="menu_sub_tab_img c_pan_img5"></div>
+                        <div class="menu_sub_tab_txt">명함</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- 메인배너 -->
+        <div class="sec fixed" id="main_banner">
+            <div class="swiper mySwiper" id="main_banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <div class="banner banner1">
+                <div class="black_pan"></div>
+                <div class="b_txt" data-swiper-parallax="-800">
+                    <div class="b_title" data-swiper-parallax="-1500">세상에 하나뿐인<br>나만의 스티커</div>
+                    <div class="b_subtitle" data-swiper-parallax="-1200">다양한 사이즈, 원하는 모양대로 만드는<br>맞춤 스티커, 지금
+                        1매부터
+                        만나보세요. </div>
+                    <button class="banner_go_btn button--wayra" onclick="location.href='#'">바로가기</button>
+                </div>
+            </div> -->
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                    <div class="swiper-slide">
+                    </div>
+                </div>
+
+                <div class="m_b_frame m_b_frame_L"></div>
+                <div class="m_b_frame m_b_frame_R"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination2"></div>
+            </div>
+        </div>
+        <div class="tttt"></div>
+        <div class="container">
+            <div class="contents_area1">
+                <div class="tape1"></div>
+                <div class="tape2"></div>
+            </div>
+
+
+            <!-- 장점 -->
+            <div class="sec posx_RR" id="benefit">
+                <div class="contents_area1">
+                    <div class="bf_tit_line"></div>
+                    <div class="benefit_box_title">
+                        <div><span>OH</span><span>PRINT.ME</span><span> 만의</span><span> 특별함</span></div>
+                    </div>
+                    <div class="benefit_box">
+                        <div class="benefit benefit1">
+                            <div class="b_circle b_circle1">
+                                <div class="bf_txt">생생한 화질</div>
+                                <div class="b_txt_desc">최적화 보정 시스템 CMS를<br>
+                                    바탕으로 풍부한 색감을 표현</div>
+                            </div>
+
+                        </div>
+                        <div class="benefit benefit2">
+                            <div class="b_circle b_circle2">
+                                <div class="bf_txt">품질보증</div>
+                                <div class="b_txt_desc">상품이 마음에 들지 않다면
+                                    100% 재제작, 환불</div>
+                            </div>
+
+                        </div>
+                        <div class="benefit benefit3">
+                            <div class="b_circle b_circle3">
+                                <div class="bf_txt">빠른 배송</div>
+                                <div class="b_txt_desc">안전하고 빠르게 상품을 받아 보세요</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <!-- 템플릿 -->
+            <div class="sec" id="template">
+                <div class="template_top posx_L">
+                    <div class="template_top_title">디자인 템플릿 모음전</div>
+                </div>
+                <div class="tab_box posx_R" id="template_tab">
+                    <div class="swiper mySwiper2 contents_area2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="0">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <img src="./img/ohprintme/icon/스티커off.svg" alt="">
+                                            <img class="covered_img" src="./img/ohprintme/icon/스티커on.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div>스티커</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="1">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <img src="./img/ohprintme/icon/명함off.svg" alt="">
+                                            <img class="covered_img" a src="./img/ohprintme/icon/명함on.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div>명함</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="2">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <img src="./img/ohprintme/icon/간판off.svg" alt="">
+                                            <img class="covered_img" a src="./img/ohprintme/icon/간판on.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div>간판</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="3">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/굿즈off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/굿즈on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>굿즈</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="4">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/포장off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/포장on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>포장</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="5">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/현수막off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/현수막on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>현수막/배너</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="6">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/전단지책자off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/전단지책자on.svg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>전단지/책자</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="7">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/포스터off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/포스터on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>포스터</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="8">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/의류off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/의류on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>의류</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="9">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/핫off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/핫on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>Best</div>
+                                </button>
+                            </div>
+                            <div class="swiper-slide button_box">
+                                <button class="tab" data-idx="10">
+                                    <div class="tab_img_box">
+                                        <div class="tab_img">
+                                            <div class="tab_img">
+                                                <img src="./img/ohprintme/icon/신상품off.svg" alt="">
+                                                <img class="covered_img" a src="./img/ohprintme/icon/신상품on.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>New</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+                <div class="sub_tab_sec posx_R" id="sub_tab_box">
+                    <div class="m_auto">
+                        <div class="sub_tab_box">
+                            <!-- <div class="button_box2">
+                                <button class="sub_tab">싱글 자유 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">프리미엄 투명 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">셀프 모양 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">롤스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">3D스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">싱글 규격 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">싱글 비규격 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">레터링 스티커</button>
+                            </div>
+                            <div class="button_box2">
+                                <button class="sub_tab">전체보기</button>
+                            </div> -->
+                        </div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                        <div class="sub_tab_box"></div>
+                    </div>
+                </div>
+                <div class="sec_body posx_R" id="template_body">
+                    <div class="template_body_box">
+                        <div class="template_L">
+                            <div class="template_img"></div>
+                        </div>
+                        <div class="template_R">
+                            <div class="template_desc_box">
+                                <div class="tp_txt">
+                                    <div class="tp_txt_title">셀프 모양 스티커</div>
+                                    <div class="tp_txt_desc">모양도 배치도 내 마음대로 디자인하세요.</div>
+                                </div>
+
+                                <button class="tp_go_btn button--nina" data-text="만들러 가기"
+                                    onclick="location.href='00.ohprintme(item).html'"><span>만</span><span>들</span><span>러&nbsp;</span><span>
+                                        가</span><span>기</span></button>
+                            </div>
+                            <div class="tp_line"></div>
+                            <div class="template_ex_box">
+                                <div class="tp_ex_header">
+                                    <div class="tp_ex_header_title">
+                                        <div class="tp_ex_header_title_img"></div>
+                                        템플릿 구경하기
+                                    </div>
+                                    <div class="tp_ex_header_more">더보기</div>
+                                </div>
+                                <div class="tp_ex_body">
+                                    <div class="template_ex template_ex1">
+                                        <!-- <div class="template_ex_active">
+                                            <div class="checked_icon"></div>
+                                        </div> -->
+                                    </div>
+                                    <div class="template_ex template_ex2"></div>
+                                    <div class="template_ex template_ex3"></div>
+                                    <div class="template_ex template_ex4"></div>
+                                    <div class="template_ex template_ex5"></div>
+                                    <div class="template_ex template_ex6"></div>
+                                    <div class="template_ex template_ex7"></div>
+                                    <div class="template_ex template_ex8"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <!-- 포토북 -->
+            <div class="sec photobook_sec" id="photobook">
+                <!-- <div class="photobook_sec_back"></div> -->
+                <div class="contents_area1">
+                    <div class="pb_header">
+                        <div class="pb_title posy_up">나만의 추억 한 편을 앨범에 담다</div>
+                        <div class="pb_desc posy_up">사진, 문구 등을 하나하나 고르다 보면 단 하나뿐인 나만의 앨범이 완성됩니다.<br>내가 만들어 특별한 포토압축앨범을
+                            경험해보세요.</div>
+                    </div>
+                    <div class="pb_body">
+                        <!-- <div class="posy_up pb_item_li">
+                            
+                            <div class="page page1" style="background: url(././img/ohprintme/photobook/${i+1}.png) no-repeat center/ cover">
+                                <div class="pb_txt_box">
+                                    <div class="pb_txt1">${TXT1[i]}</div>
+                                    <div class="pb_txt2">${TXT2[i]}</div>
+                                </div>
+                            </div>
+                            <div class="page page2" style="background: url(././img/ohprintme/photobook/${i+1}_1.jpg) no-repeat center/ cover"></div>
+                            <div class="page page3" style="background: url(././img/ohprintme/photobook/${i+1}_2.jpg) no-repeat center/ cover"></div>
+                            
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="sec new_sec" id="new_sec">
+                <!-- <div class="contents_area1"> -->
+                    <div class="swiper main_swiper">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide main_slide_1">
+                                <div class="new_L_sec">
+                                </div>
+                                <div class="new_R_sec">
+                                    <div class="title_area">추억을 만들고 싶은 이유</div>
+                                    <div class="swiper sub_swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide sub_slide_1">
+                                                
+                                            </div>
+                                            <div class="swiper-slide sub_slide_1">
+                                                
+                                            </div>
+                                            <div class="swiper-slide  sub_slide_1">
+                                                
+                                            </div>
+                                            <div class="swiper-slide  sub_slide_1">
+                                                
+                                            </div>
+                                            <div class="swiper-slide  sub_slide_1">
+                                                
+                                            </div>
+                                            <div class="swiper-slide  sub_slide_1">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide main_slide_1">
+
+                            </div>
+                            <div class="swiper-slide main_slide_2">
+
+                            </div>
+                            <div class="swiper-slide main_slide_3">
+
+                            </div>
+                            <div class="swiper-slide main_slide_4">
+
+                            </div>
+                            <div class="swiper-slide main_slide_5">
+
+                            </div>
+                        </div>
+                        <div class="main_nav">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+
+
+                <!-- </div> -->
+
+            </div>
+
+            <!-- 위클리랭킹 -->
+            <div class="sec toChk" id="w_ranking">
+                <div class="contents_area1">
+                    <div class="sec_title pos_init ranking_title">Best Ranking</div>
+                    <div class="sec_body">
+                        <ul class="item_box">
+                            <li class="item pos_init">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="./img/ohprintme/thumnail/best1_1.png" alt="">
+                                        <div class="ranking_no">
+                                            1</div>
+                                    </a>
+                                    <div class="zzim_icon"></div>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_info_title"></div>
+
+
+                                    <div class="item_desc">종이 포스터</div>
+                                </div>
+                            </li>
+                            <li class="item pos_init">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="./img/ohprintme/thumnail/best2_1.png" alt="">
+                                        <div class="ranking_no">2</div>
+                                    </a>
+                                    <div class="zzim_icon"></div>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_info_title"></div>
+
+
+                                    <div class="item_desc">티켓</div>
+                                </div>
+                            </li>
+                            <li class="item pos_init">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="./img/ohprintme/thumnail/best3_1.png" alt="">
+                                        <div class="ranking_no">3</div>
+                                    </a>
+                                    <div class="zzim_icon"></div>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_info_title"></div>
+
+
+                                    <div class="item_desc">사각 스티커</div>
+                                </div>
+                            </li>
+                            <li class="item pos_init">
+                                <div class="item_img">
+                                    <a href="#">
+                                        <img src="./img/ohprintme/thumnail/best4_1.png" alt="">
+                                        <div class="ranking_no">4</div>
+                                    </a>
+                                    <div class="zzim_icon"></div>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_info_title"></div>
+
+
+                                    <div class="item_desc">명함</div>
+                                </div>
+                            </li>
+                            <!-- <li class="item pos_init">
+                            <div class="item_img">
+                                <a href="#">
+                                    <img src="./img/theComma/items/ranking/5.jpg" alt="">
+                                    <div class="ranking_no">5</div>
+                                </a>
+                                <div class="zzim_icon"></div>
+                            </div>
+                            <div class="item_info">
+                                <div class="item_info_title">더콤마</div>
+                                
+                                <div class="s_price">200,000원</div>
+                                <div class="item_desc"></div>
+                            </div>
+                        </li> -->
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer_sec">
+                <div class="wrapper">
+                    <h1 contenteditable data-heading="OHPRINT">OHPRINT</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
