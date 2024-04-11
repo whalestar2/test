@@ -3,7 +3,7 @@ $(document).ready(function () {
 for(let i=0; i<7; i++) {
     $('.pan .contents_area1').append(`<div class="pan_item pan_item${i+1}">
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0"><div class="c_pan_img_box">
+        <a href="product.html?cateNo=0"><div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img0"></div>
             <div class="menu_icon best_icon"></div>
         </div><div class="c_pan_desc">웰컴키트</div>
@@ -12,7 +12,7 @@ for(let i=0; i<7; i++) {
         
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
         <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img1"></div>
             <div class="menu_icon new_icon"></div>
@@ -20,7 +20,7 @@ for(let i=0; i<7; i++) {
         <div class="c_pan_desc">포스터</div></a>
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
             <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img2"></div>
             <div class="menu_icon hot_icon"></div>
@@ -30,7 +30,7 @@ for(let i=0; i<7; i++) {
         
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
             <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img3"></div>
         </div>
@@ -39,7 +39,7 @@ for(let i=0; i<7; i++) {
         
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
             <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img4"></div>
         </div>
@@ -48,7 +48,7 @@ for(let i=0; i<7; i++) {
         
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
             <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img5"></div>
         </div>
@@ -57,7 +57,7 @@ for(let i=0; i<7; i++) {
         
     </div>
     <div class="c_pan">
-        <a href="00.ohprintme(product).html?cateNo=0">
+        <a href="product.html?cateNo=0">
             <div class="c_pan_img_box">
             <div class="c_pan_img c_pan_img6"></div>
         </div>

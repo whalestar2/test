@@ -233,11 +233,6 @@ button {
     }
 }
 
-#wrap {
-    /* margin-top: 40px; */
-
-
-}
 
 /* header */
 .header {
@@ -813,11 +808,10 @@ button {
     text-shadow: 2px -1px 6px rgba(0, 0, 0, 0.3);
   }
 @media screen and (max-width: 768px) {
-    #wrap {
-        margin-top: 0,
-    }
+   
     .header {
         height: 50px;
+      
     }
     .h_top {
         height: 50px;

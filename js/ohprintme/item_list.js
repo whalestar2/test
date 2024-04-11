@@ -106,7 +106,7 @@ function load_item(cate, subcate, qty) {
 
         let tmp_list = `
         <div class="item_li">
-        <a href="00.ohprintme(item).html?cateNo=${cate}&subcateNo=${subcate}&itemNo=${ITEM_LIST[cate][subcate][i].item_no}">
+        <a href="item.html?cateNo=${cate}&subcateNo=${subcate}&itemNo=${ITEM_LIST[cate][subcate][i].item_no}">
             <div class="item_img_box">
                 <img class="item_img" src="./img/ohprintme/items/${CATE_ARR[cate]}/${SUBCATE_ARR[cate][subcate]}/${tmp.src}" alt="">
                 ${/*삼항연산자*/
